@@ -1,0 +1,25 @@
+:ext-relative:
+
+# 🐍 https://tic80.com/play?cart=1470[Snake]
+
+A simple snake game made in https://wren.io/[Wren], https://tic80.com[TIC-80] and https://domeengine.com[Dome Engine].
+
+image:game.gif[Snake]
+
+Play: https://tic80.com/play?cart=1470[Snake]
+
+Based on https://github.com/nesbox/TIC-80/wiki/Snake-Clone-tutorial[Snake Clone Tutorial]
+
+- link:snake.wren{ext-relative}[TIC-80 Version]
+- link:snake.dome.wren{ext-relative}[DOME Engine Version]
+
+## 🤩 Credits
+
+++++
+<p>
+  Made with <i class="fa fa-heart">&#9829;</i> by
+  <a href="https://ninjas.cl">
+    Ninjas.cl
+  </a>.
+</p>
+++++
