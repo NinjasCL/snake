@@ -77,8 +77,13 @@ class Food is Entity {
 		}
 		
 		place() {
-		  random()
-		}
+        random()
+        GameState.game.snake.body.each{|part|
+            if (part.x == x && part.y == y) {
+                place()
+            }
+        }
+    }
 		
 		draw() {
 		  T.rect(x * 8, y * 8, 8, 8, Color.orange)
